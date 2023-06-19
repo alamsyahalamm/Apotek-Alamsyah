@@ -25,8 +25,7 @@
             <nav class="navbar navbar-expand-lg main-navbar">
                 <form class="form-inline mr-auto">
                     <ul class="navbar-nav mr-3">
-                        <li><a href="#" data-toggle="sidebar" class="nav-link nav-link-lg"><i
-                                    class="fas fa-bars"></i></a></li>
+
                         <li><a href="#" data-toggle="search" class="nav-link nav-link-lg d-sm-none"><i
                                     class="fas fa-search"></i></a></li>
                     </ul>
@@ -59,7 +58,7 @@
                     <ul class="sidebar-menu">
                         <li class="{{ Request::is('admin/dashboard') ? 'active' : '' }}"><a class="nav-link "
                                 href="{{ route('dashboard.index') }}"><i class="fas fa-tachometer-alt"></i>
-                                <span>Dashboard</span></a>
+                                <span>Dashboard </span></a>
                         </li>
                         <li class="menu-header">Admin</li>
                         <li

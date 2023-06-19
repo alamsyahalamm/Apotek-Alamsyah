@@ -272,7 +272,7 @@ sup {
 }
 
 a {
-    color: #f4623a;
+    color: #28a745;
     text-decoration: underline;
 }
 a:hover {
@@ -2269,9 +2269,9 @@ progress {
 .form-control:focus {
     color: #212529;
     background-color: #fff;
-    border-color: #fab19d;
+    border-color: #28a745;
     outline: 0;
-    box-shadow: 0 0 0 0.25rem rgba(244, 98, 58, 0.25);
+    box-shadow: 0 0 0 0.25rem rgba(51, 185, 47, 0.25);
 }
 .form-control::-webkit-date-and-time-value {
     height: 1.5em;
@@ -3022,7 +3022,7 @@ textarea.form-control.is-valid {
 
 .was-validated .form-control:invalid,
 .form-control.is-invalid {
-    border-color: #dc3545;
+    border-color: #28a745;
     padding-right: calc(1.5em + 0.75rem);
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='%23dc3545'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e");
     background-repeat: no-repeat;
@@ -3031,7 +3031,7 @@ textarea.form-control.is-valid {
 }
 .was-validated .form-control:invalid:focus,
 .form-control.is-invalid:focus {
-    border-color: #dc3545;
+    border-color: #28a745;
     box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.25);
 }
 
@@ -3044,7 +3044,7 @@ textarea.form-control.is-invalid {
 
 .was-validated .form-select:invalid,
 .form-select.is-invalid {
-    border-color: #dc3545;
+    border-color: #28a745;
 }
 .was-validated .form-select:invalid:not([multiple]):not([size]),
 .was-validated .form-select:invalid:not([multiple])[size="1"],
@@ -3143,8 +3143,8 @@ fieldset:disabled .btn {
 
 .btn-primary {
     color: #fff;
-    background-color: #f4623a;
-    border-color: #f4623a;
+    background-color: #28a745;
+        border-color: #28a745;
 }
 .btn-primary:hover {
     color: #fff;
@@ -4057,7 +4057,7 @@ fieldset:disabled .btn {
 .dropdown-item:active {
     color: #fff;
     text-decoration: none;
-    background-color: #f4623a;
+    background-color: #28a745;
 }
 .dropdown-item.disabled,
 .dropdown-item:disabled {

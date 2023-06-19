@@ -64,7 +64,7 @@
 }
 
 a {
-  color: #f4623a;
+color: #2b1711;
   font-weight: 500;
   transition: all 0.5s;
   -webkit-transition: all 0.5s;
@@ -80,7 +80,7 @@ a:not(.btn-social-icon):not(.btn-social):not(.page-link) .fab {
 }
 
 .bg-primary {
-  background-color: #f4623a !important;
+background-color: #48180b !important;
 }
 
 .bg-secondary {
@@ -132,7 +132,7 @@ a:not(.btn-social-icon):not(.btn-social):not(.page-link) .fab {
 }
 
 .text-danger, .text-danger-all *, .text-danger-all *:before, .text-danger-all *:after {
-  color: #fc544b !important;
+color: #28a745 !important;
 }
 
 .text-light, .text-light-all *, .text-light-all *:before, .text-light-all *:after {
@@ -628,7 +628,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .list-group-item.active {
-  background-color: #f4623a;
+background-color: #119c2d;
 }
 .list-group-item.disabled {
   color: #c9d7e0;
@@ -1893,7 +1893,7 @@ h6 .badge {
   background-color: transparent;
 }
 .navbar.active {
-  background-color: #f4623a;
+background-color: #119c2d;
   box-shadow: rgba(244, 98, 58, 0.2) rgba(0, 0, 0, 0.03);
 }
 
@@ -1903,8 +1903,8 @@ h6 .badge {
   top: 0;
   left: 0;
   width: 100%;
-  height: 115px;
-  background-color: #f4623a;
+height: 67px;
+    background-color: #119c2d;
   z-index: -1;
 }
 
@@ -2881,6 +2881,7 @@ pre {
   margin-top: -7px;
 }
 .section .section-header {
+    margin-top: 30px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
   background-color: #fff;
@@ -3202,7 +3203,7 @@ body.layout-2 .main-sidebar .sidebar-menu li a.has-dropdown:after {
   right: 0;
 }
 body.layout-2 .main-sidebar .sidebar-menu li a:hover {
-  color: #f4623a;
+color: #28a745;
   background-color: transparent;
 }
 body.layout-2 .main-sidebar .sidebar-menu li ul.dropdown-menu li a {
@@ -3428,7 +3429,7 @@ body.layout-3 .main-footer {
   background-color: #f8fafb;
 }
 .main-sidebar .sidebar-menu li.active a {
-  color: #f4623a;
+color: #28a745;
   font-weight: 600;
   background-color: #f8fafb;
 }
@@ -3464,17 +3465,17 @@ body.layout-3 .main-footer {
   background-color: transparent;
 }
 .main-sidebar .sidebar-menu li ul.dropdown-menu li a {
-  color: #868e96;
+color: #28a745;
   height: 35px;
   padding-left: 65px;
   font-weight: 400;
 }
 .main-sidebar .sidebar-menu li ul.dropdown-menu li a:hover {
-  color: #f4623a;
+color: #28a745;
   background-color: inherit;
 }
 .main-sidebar .sidebar-menu li ul.dropdown-menu li.active > a {
-  color: #f4623a;
+color: #28a745;
   font-weight: 600;
 }
 .main-sidebar .sidebar-menu li ul.dropdown-menu li a i {

@@ -10,10 +10,10 @@
                             <div class="card-body">
                                 <div class="p-4 rounded">
                                     <div class="text-center">
-                                    <h1>Apotek Sehati Jaya<h1>
+                                    <h1>Apotek Alamsyah<h1>
                                     <hr>
                                         {{-- <img src="{{ url('img/logo.png') }}" width="50" class="mb-3" /> --}}
-                                        <h3 class="">Sign in</h3>
+                                        <h5 class="">welcome to Apotek Alamsyah hopefully it can help, be healthy always </h5>
                                     </div>
                                     <div class="form-body">
                                         @if ($message = Session::get('error'))

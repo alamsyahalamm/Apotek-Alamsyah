@@ -21,8 +21,8 @@
     <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
         <div class="container px-4 px-lg-5">
             <a class="navbar-brand" href="#page-top">
-               
-                <span class="text-uppercase font-weight-bold">Apotek Sehati Jaya</span>
+
+                <span class="text-uppercase font-weight-bold">Apotek Alamsyah</span>
             </a>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto my-2 my-lg-0">
@@ -34,7 +34,7 @@
                     @if (Auth::user()->is_admin == true)
                         <li class="btn btn-primary btn-sm rounded-pill mx-3"><a
                                 class="nav-link text-white bi bi-speedometer2" href="{{ route('dashboard.index') }}">
-                                Dashboard</a></li>
+                                Dashboard </a></li>
                     @else
                         <li class="btn btn-primary btn-sm rounded-pill mx-3"><a class="nav-link text-white bi bi-cart4"
                                 href="{{ url('home') }}"> Shop</a></li>

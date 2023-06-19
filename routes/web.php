@@ -1,17 +1,17 @@
 <?php
 
 use App\Http\Controllers\DashboardController;
-use App\Http\Controllers\DistributorController;
+// use App\Http\Controllers\DistributorController;
 use App\Http\Controllers\HistoryController;
 use App\Http\Controllers\HomeController;
-use App\Http\Controllers\JasaController;
-use App\Http\Controllers\LandingController;
-use App\Http\Controllers\LaporanController;
+// use App\Http\Controllers\JasaController;
+// use App\Http\Controllers\LandingController;
+// use App\Http\Controllers\LaporanController;
 use App\Http\Controllers\ObatController;
-use App\Http\Controllers\PembelianController;
+// use App\Http\Controllers\PembelianController;
 use App\Http\Controllers\PenggunaController;
-use App\Http\Controllers\PenjualanController;
-use App\Http\Controllers\PesananController;
+// use App\Http\Controllers\PenjualanController;
+// use App\Http\Controllers\PesananController;
 use App\Http\Controllers\PesanController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Auth;
