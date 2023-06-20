@@ -86,7 +86,7 @@
                                             <input type="number" name="jumlah_pesan" class="form-control" required="">
                                             <hr>
                                             <button type="submit" class="btn btn-primary mt-2"><i
-                                                    class="fa fa-shopping-cart"></i> Masukan keranjang</button>
+                                                    class="fa fa-shopping-cart"></i> </button>
                                             <a href="{{ url('home') }}" class="btn btn-secondary mt-2"><i
                                                     class="fa fa-arrow-left"></i> Kembali</a>
                                         </td>

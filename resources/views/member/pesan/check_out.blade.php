@@ -78,10 +78,6 @@
                                             @endphp
                                             <td><strong>Rp. {{ number_format($total) }}</strong></td>
                                             <td>
-                                                <a href="{{ url('/member/konfirmasi-check-out') }}" class="btn btn-success"
-                                                    onclick="return confirm('Anda yakin check out?')">
-                                                    <i class="fa fa-shopping-cart"></i> Check Out
-                                                </a>
                                             </td>
                                         </tr>
                                     </tbody>

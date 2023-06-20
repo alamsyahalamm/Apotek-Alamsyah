@@ -75,9 +75,8 @@
                             @endphp
 
                             <a class="nav-link position-relative" href="{{ url('member/check-out') }}">
-                                <i class="fa fa-shopping-cart"></i>
                                 @if (!empty($notif))
-                                    <span class="badge bg-danger">{{ $notif }}</span>
+                                    <span class="">{{ $notif }}</span>
                             </a>
                         @else
                             <span class="badge bg-secondary invisible">0</span></a>
